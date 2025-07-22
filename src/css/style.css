@@ -91,6 +91,7 @@ header, main {
 
 .cabecalho .logo>img {
     width: 75px;
+    cursor: pointer;
 }
 
 .container {
