@@ -24,7 +24,7 @@
 
 .fundo-video .video {
     height: 100vh;
-    filter: brightness(80%);
+    filter: brightness(90%);
 }
 
 .fundo-video::after {
@@ -37,7 +37,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.9) 50%, rgba(0, 0, 0, 1) 100%);
 
 }
 
