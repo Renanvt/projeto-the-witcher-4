@@ -7,6 +7,7 @@
     overflow: hidden;
     display: flex;
     justify-content: center;
+   
 }
 
 /* .video {
@@ -59,7 +60,7 @@ header, main {
     padding: 30px;
     max-width: 1440px;
     margin: 0 auto;
-
+    text-transform: uppercase;
     /* background-color: black; */
     display: flex;
     flex-flow: row nowrap;
@@ -76,7 +77,7 @@ header, main {
 
 .cabecalho nav li a {
     font-weight: bold;
-    color: #ffffff;
+    color: #FDFDFD;
     font-size: 25px;
     padding: 10px 20px;
     border-radius: 50px;
@@ -84,12 +85,12 @@ header, main {
 }
 
 .cabecalho nav li a:hover {
-    background-color: red;
+    background-color: #464449;
     cursor: pointer;
 }
 
 .cabecalho .logo>img {
-    width: 65px;
+    width: 75px;
 }
 
 .container {
@@ -100,9 +101,11 @@ header, main {
     margin: 0 auto;
     height: 100vh;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     height: calc(100vh - 132px);
     padding: 0 30px 30px;
+    font-family: var( --fonte-texto);
+    line-height: 30px;
 }
 
 .container .informacoes {
@@ -120,15 +123,19 @@ header, main {
 }
 
 .container .informacoes>.imagem-titulo {
-    max-width: 500px;
+    max-width: 300px;
     /* background-color: red; */
 }
 
-.container .imagem-marios {}
+.container .imagem-marios > img {
+    max-width: 600px;
+    z-index: 0;
+}
 
 .container .botao-trailer {
     /* background-color: red; */
-    background-color: #ff0021;
+    font-family: var(--fonte-padrao);
+    background-color: #464449;
     color: white;
     padding: 15px;
     font-size: 1.1em;
@@ -165,8 +172,9 @@ header, main {
 }
 
 .fechar-modal{
-    background-color: white;
-    color:#f03a17;
+    background-color: #464449;
+    font-family: var(--fonte-padrao);
+    color:#C2FDFD;
     font-weight: bold;
     font-size: 20px;
     width: 40px;
