@@ -1,6 +1,6 @@
 @media (max-width: 1200px) {
     body {
-        background-color: #F44336;
+        background-color: #101113;
     }
 
     .fundo-video {
@@ -12,6 +12,7 @@
         justify-content: center;
         height: auto;
         gap: 30px;
+
         
     }
 
@@ -32,16 +33,20 @@
         text-align: center;
     }
 
-    .container .imagem-marios {
+    .container .imagem-ciri {
         flex-flow: row;
         text-align: center;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
 
         /* background-color: #263238; */
     }
 
-    .container .imagem-marios>img {
+    .container .imagem-ciri > img {
         max-width: 70%;
         /* background-color: green; */
+       
 
     }
 
